@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-tunnel-libsodium.xcscheme</key>
+		<key>Pods-tunnel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-tunnel.xcscheme</key>
+		<key>libsodium.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>86536A03F9FAF70FD063F9C7</key>
+		<key>2BBB07671F2703B4D3902EC0E62B2E33</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F845435C4F67920693C75BDE</key>
+		<key>D9B1872C3B4A5915914D811DB30FF646</key>
 		<dict>
 			<key>primary</key>
 			<true/>

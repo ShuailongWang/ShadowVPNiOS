@@ -8,21 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		5EA8D9810A0C84460A50A3DA /* libPods-tunnel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC75A2A2AB75447D9D64CB9 /* libPods-tunnel.a */; };
+		620629BC1B789A320034179B /* ConfigurationValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620629BB1B789A320034179B /* ConfigurationValidator.swift */; };
+		620629BD1B789DE50034179B /* NSData+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D8D26A1B771B63009FA6FE /* NSData+Hex.swift */; };
 		620A5B881B5A9F1E00F98476 /* crypto_secretbox_salsa208poly1305.c in Sources */ = {isa = PBXBuildFile; fileRef = 620A5B841B5A9F1E00F98476 /* crypto_secretbox_salsa208poly1305.c */; };
 		620A5B891B5A9F1E00F98476 /* crypto.c in Sources */ = {isa = PBXBuildFile; fileRef = 620A5B861B5A9F1E00F98476 /* crypto.c */; };
 		620A5B901B5AA85800F98476 /* SVCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 620A5B8F1B5AA85800F98476 /* SVCrypto.m */; };
+		623DE1E61B78AAB200B1440F /* SimpleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 623DE1E51B78AAB200B1440F /* SimpleTableViewController.m */; };
+		625E05051B73D3C30041A9D6 /* checkmark_empty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 625E05031B73D3C30041A9D6 /* checkmark_empty@2x.png */; };
+		625E05061B73D3C30041A9D6 /* checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 625E05041B73D3C30041A9D6 /* checkmark@2x.png */; };
+		626520C21B73AB890064F653 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626520C11B73AB890064F653 /* MainViewController.swift */; };
+		626520C41B73ABA10064F653 /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626520C31B73ABA10064F653 /* ConfigurationViewController.swift */; };
 		62A427511B5A3C9700BB4AD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A427501B5A3C9700BB4AD9 /* AppDelegate.swift */; };
-		62A427531B5A3C9700BB4AD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A427521B5A3C9700BB4AD9 /* ViewController.swift */; };
-		62A427561B5A3C9700BB4AD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A427541B5A3C9700BB4AD9 /* Main.storyboard */; };
 		62A427581B5A3C9700BB4AD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62A427571B5A3C9700BB4AD9 /* Assets.xcassets */; };
 		62A4275B1B5A3C9700BB4AD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A427591B5A3C9700BB4AD9 /* LaunchScreen.storyboard */; };
 		62A427671B5A3E2500BB4AD9 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A427661B5A3E2500BB4AD9 /* NetworkExtension.framework */; };
 		62A427721B5A3ED800BB4AD9 /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A427711B5A3ED800BB4AD9 /* PacketTunnelProvider.swift */; };
-		62A427761B5A3ED800BB4AD9 /* tunnel.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 62A4276D1B5A3ED800BB4AD9 /* tunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		62D8D2691B76286F009FA6FE /* ConfigurationTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D8D2681B76286F009FA6FE /* ConfigurationTextCell.swift */; };
+		62D8D26B1B771B63009FA6FE /* NSData+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D8D26A1B771B63009FA6FE /* NSData+Hex.swift */; };
+		62D8D2701B772C5A009FA6FE /* RouteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D8D26F1B772C5A009FA6FE /* RouteManager.swift */; };
+		62D8D2981B77342F009FA6FE /* chinadns.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D8D2971B77342F009FA6FE /* chinadns.m */; };
+		62D8D29B1B773622009FA6FE /* chnroutes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 62D8D29A1B773622009FA6FE /* chnroutes.txt */; };
+		62D8D29E1B77433E009FA6FE /* ChinaDNSRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D8D29D1B77433E009FA6FE /* ChinaDNSRunner.m */; };
+		62D8D2A01B7748CA009FA6FE /* iplist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 62D8D29F1B7748CA009FA6FE /* iplist.txt */; };
+		62D8D2A21B774A2F009FA6FE /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D8D2A11B774A2F009FA6FE /* libresolv.tbd */; };
+		62F7E9891BB58DBE007A19E7 /* tunnel.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 62A4276D1B5A3ED800BB4AD9 /* tunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		62A427741B5A3ED800BB4AD9 /* PBXContainerItemProxy */ = {
+		6228E95B1B775DDB00581B0F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 62A427451B5A3C9700BB4AD9 /* Project object */;
 			proxyType = 1;
@@ -34,11 +47,11 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		62A4277A1B5A3ED800BB4AD9 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				62A427761B5A3ED800BB4AD9 /* tunnel.appex in Embed App Extensions */,
+				62F7E9891BB58DBE007A19E7 /* tunnel.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,6 +61,7 @@
 /* Begin PBXFileReference section */
 		52E22CBCA9CEB75CB469204A /* Pods-tunnel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tunnel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tunnel/Pods-tunnel.debug.xcconfig"; sourceTree = "<group>"; };
 		5FC75A2A2AB75447D9D64CB9 /* libPods-tunnel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tunnel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		620629BB1B789A320034179B /* ConfigurationValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationValidator.swift; sourceTree = "<group>"; };
 		620A5B821B5A9E3100F98476 /* tunnel-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tunnel-Bridging-Header.h"; sourceTree = "<group>"; };
 		620A5B841B5A9F1E00F98476 /* crypto_secretbox_salsa208poly1305.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crypto_secretbox_salsa208poly1305.c; sourceTree = "<group>"; };
 		620A5B851B5A9F1E00F98476 /* crypto_secretbox_salsa208poly1305.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_secretbox_salsa208poly1305.h; sourceTree = "<group>"; };
@@ -55,10 +69,15 @@
 		620A5B871B5A9F1E00F98476 /* crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
 		620A5B8E1B5AA85800F98476 /* SVCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVCrypto.h; sourceTree = "<group>"; };
 		620A5B8F1B5AA85800F98476 /* SVCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVCrypto.m; sourceTree = "<group>"; };
+		623DE1E31B78AAB100B1440F /* ShadowVPN-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShadowVPN-Bridging-Header.h"; sourceTree = "<group>"; };
+		623DE1E41B78AAB200B1440F /* SimpleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableViewController.h; sourceTree = "<group>"; };
+		623DE1E51B78AAB200B1440F /* SimpleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableViewController.m; sourceTree = "<group>"; };
+		625E05031B73D3C30041A9D6 /* checkmark_empty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark_empty@2x.png"; sourceTree = "<group>"; };
+		625E05041B73D3C30041A9D6 /* checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark@2x.png"; sourceTree = "<group>"; };
+		626520C11B73AB890064F653 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		626520C31B73ABA10064F653 /* ConfigurationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
 		62A4274D1B5A3C9700BB4AD9 /* ShadowVPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowVPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62A427501B5A3C9700BB4AD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		62A427521B5A3C9700BB4AD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		62A427551B5A3C9700BB4AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62A427571B5A3C9700BB4AD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62A4275A1B5A3C9700BB4AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62A4275C1B5A3C9700BB4AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -68,6 +87,16 @@
 		62A427701B5A3ED800BB4AD9 /* tunnel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = tunnel.entitlements; sourceTree = "<group>"; };
 		62A427711B5A3ED800BB4AD9 /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
 		62A427731B5A3ED800BB4AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62D8D2681B76286F009FA6FE /* ConfigurationTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationTextCell.swift; sourceTree = "<group>"; };
+		62D8D26A1B771B63009FA6FE /* NSData+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSData+Hex.swift"; sourceTree = "<group>"; };
+		62D8D26F1B772C5A009FA6FE /* RouteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteManager.swift; sourceTree = "<group>"; };
+		62D8D2971B77342F009FA6FE /* chinadns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chinadns.m; sourceTree = "<group>"; };
+		62D8D2991B77345C009FA6FE /* chinadns.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chinadns.h; sourceTree = "<group>"; };
+		62D8D29A1B773622009FA6FE /* chnroutes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chnroutes.txt; sourceTree = "<group>"; };
+		62D8D29C1B77433E009FA6FE /* ChinaDNSRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChinaDNSRunner.h; sourceTree = "<group>"; };
+		62D8D29D1B77433E009FA6FE /* ChinaDNSRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChinaDNSRunner.m; sourceTree = "<group>"; };
+		62D8D29F1B7748CA009FA6FE /* iplist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iplist.txt; sourceTree = "<group>"; };
+		62D8D2A11B774A2F009FA6FE /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		F8715C8B6D2ECED571986A72 /* Pods-tunnel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tunnel.release.xcconfig"; path = "Pods/Target Support Files/Pods-tunnel/Pods-tunnel.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62D8D2A21B774A2F009FA6FE /* libresolv.tbd in Frameworks */,
 				5EA8D9810A0C84460A50A3DA /* libPods-tunnel.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +124,8 @@
 		486E76D16A13A84BC2514505 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				62D8D2A11B774A2F009FA6FE /* libresolv.tbd */,
+				62A427661B5A3E2500BB4AD9 /* NetworkExtension.framework */,
 				5FC75A2A2AB75447D9D64CB9 /* libPods-tunnel.a */,
 			);
 			name = Frameworks;
@@ -102,21 +134,29 @@
 		620A5B831B5A9F0E00F98476 /* Crypto */ = {
 			isa = PBXGroup;
 			children = (
-				620A5B821B5A9E3100F98476 /* tunnel-Bridging-Header.h */,
 				620A5B841B5A9F1E00F98476 /* crypto_secretbox_salsa208poly1305.c */,
 				620A5B851B5A9F1E00F98476 /* crypto_secretbox_salsa208poly1305.h */,
 				620A5B861B5A9F1E00F98476 /* crypto.c */,
 				620A5B871B5A9F1E00F98476 /* crypto.h */,
 				620A5B8E1B5AA85800F98476 /* SVCrypto.h */,
 				620A5B8F1B5AA85800F98476 /* SVCrypto.m */,
+				62D8D26A1B771B63009FA6FE /* NSData+Hex.swift */,
 			);
 			name = Crypto;
+			sourceTree = "<group>";
+		};
+		625E05021B73D3B70041A9D6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				625E05031B73D3C30041A9D6 /* checkmark_empty@2x.png */,
+				625E05041B73D3C30041A9D6 /* checkmark@2x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		62A427441B5A3C9700BB4AD9 = {
 			isa = PBXGroup;
 			children = (
-				62A427661B5A3E2500BB4AD9 /* NetworkExtension.framework */,
 				62A4274F1B5A3C9700BB4AD9 /* ShadowVPN */,
 				62A4276E1B5A3ED800BB4AD9 /* tunnel */,
 				62A4274E1B5A3C9700BB4AD9 /* Products */,
@@ -137,13 +177,9 @@
 		62A4274F1B5A3C9700BB4AD9 /* ShadowVPN */ = {
 			isa = PBXGroup;
 			children = (
-				62A427681B5A3E2500BB4AD9 /* ShadowVPN.entitlements */,
-				62A427501B5A3C9700BB4AD9 /* AppDelegate.swift */,
-				62A427521B5A3C9700BB4AD9 /* ViewController.swift */,
-				62A427541B5A3C9700BB4AD9 /* Main.storyboard */,
-				62A427571B5A3C9700BB4AD9 /* Assets.xcassets */,
-				62A427591B5A3C9700BB4AD9 /* LaunchScreen.storyboard */,
-				62A4275C1B5A3C9700BB4AD9 /* Info.plist */,
+				625E05021B73D3B70041A9D6 /* Resources */,
+				62D48D7F1B73952D003E4FEE /* Misc */,
+				62D48D7E1B739528003E4FEE /* UI */,
 			);
 			path = ShadowVPN;
 			sourceTree = "<group>";
@@ -151,8 +187,10 @@
 		62A4276E1B5A3ED800BB4AD9 /* tunnel */ = {
 			isa = PBXGroup;
 			children = (
+				62D8D2961B7733ED009FA6FE /* Route */,
+				62D8D2951B7733EA009FA6FE /* VPN */,
+				62D8D2941B7733E2009FA6FE /* DNS */,
 				620A5B831B5A9F0E00F98476 /* Crypto */,
-				62A427711B5A3ED800BB4AD9 /* PacketTunnelProvider.swift */,
 				62A427731B5A3ED800BB4AD9 /* Info.plist */,
 				62A4276F1B5A3ED800BB4AD9 /* Supporting Files */,
 			);
@@ -162,9 +200,65 @@
 		62A4276F1B5A3ED800BB4AD9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				620A5B821B5A9E3100F98476 /* tunnel-Bridging-Header.h */,
 				62A427701B5A3ED800BB4AD9 /* tunnel.entitlements */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62D48D7E1B739528003E4FEE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				623DE1E41B78AAB200B1440F /* SimpleTableViewController.h */,
+				623DE1E51B78AAB200B1440F /* SimpleTableViewController.m */,
+				626520C11B73AB890064F653 /* MainViewController.swift */,
+				626520C31B73ABA10064F653 /* ConfigurationViewController.swift */,
+				62D8D2681B76286F009FA6FE /* ConfigurationTextCell.swift */,
+				620629BB1B789A320034179B /* ConfigurationValidator.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		62D48D7F1B73952D003E4FEE /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				623DE1E31B78AAB100B1440F /* ShadowVPN-Bridging-Header.h */,
+				62A427681B5A3E2500BB4AD9 /* ShadowVPN.entitlements */,
+				62A427501B5A3C9700BB4AD9 /* AppDelegate.swift */,
+				62A427571B5A3C9700BB4AD9 /* Assets.xcassets */,
+				62A427591B5A3C9700BB4AD9 /* LaunchScreen.storyboard */,
+				62A4275C1B5A3C9700BB4AD9 /* Info.plist */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+		62D8D2941B7733E2009FA6FE /* DNS */ = {
+			isa = PBXGroup;
+			children = (
+				62D8D29F1B7748CA009FA6FE /* iplist.txt */,
+				62D8D2991B77345C009FA6FE /* chinadns.h */,
+				62D8D2971B77342F009FA6FE /* chinadns.m */,
+				62D8D29C1B77433E009FA6FE /* ChinaDNSRunner.h */,
+				62D8D29D1B77433E009FA6FE /* ChinaDNSRunner.m */,
+			);
+			name = DNS;
+			sourceTree = "<group>";
+		};
+		62D8D2951B7733EA009FA6FE /* VPN */ = {
+			isa = PBXGroup;
+			children = (
+				62A427711B5A3ED800BB4AD9 /* PacketTunnelProvider.swift */,
+			);
+			name = VPN;
+			sourceTree = "<group>";
+		};
+		62D8D2961B7733ED009FA6FE /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				62D8D29A1B773622009FA6FE /* chnroutes.txt */,
+				62D8D26F1B772C5A009FA6FE /* RouteManager.swift */,
+			);
+			name = Route;
 			sourceTree = "<group>";
 		};
 		C8337FA84DBF382377A3AB97 /* Pods */ = {
@@ -191,7 +285,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				62A427751B5A3ED800BB4AD9 /* PBXTargetDependency */,
+				6228E95C1B775DDB00581B0F /* PBXTargetDependency */,
 			);
 			name = ShadowVPN;
 			productName = ShadowVPN;
@@ -272,9 +366,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				625E05051B73D3C30041A9D6 /* checkmark_empty@2x.png in Resources */,
 				62A4275B1B5A3C9700BB4AD9 /* LaunchScreen.storyboard in Resources */,
+				625E05061B73D3C30041A9D6 /* checkmark@2x.png in Resources */,
 				62A427581B5A3C9700BB4AD9 /* Assets.xcassets in Resources */,
-				62A427561B5A3C9700BB4AD9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +377,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62D8D29B1B773622009FA6FE /* chnroutes.txt in Resources */,
+				62D8D2A01B7748CA009FA6FE /* iplist.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +397,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tunnel/Pods-tunnel-resources.sh\"\n";
+			shellScript = "#\"${SRCROOT}/Pods/Target Support Files/Pods-tunnel/Pods-tunnel-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E4EB07B6CDD86D9D38054741 /* Check Pods Manifest.lock */ = {
@@ -325,8 +422,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62A427531B5A3C9700BB4AD9 /* ViewController.swift in Sources */,
+				620629BD1B789DE50034179B /* NSData+Hex.swift in Sources */,
+				62D8D2691B76286F009FA6FE /* ConfigurationTextCell.swift in Sources */,
+				623DE1E61B78AAB200B1440F /* SimpleTableViewController.m in Sources */,
 				62A427511B5A3C9700BB4AD9 /* AppDelegate.swift in Sources */,
+				626520C41B73ABA10064F653 /* ConfigurationViewController.swift in Sources */,
+				620629BC1B789A320034179B /* ConfigurationValidator.swift in Sources */,
+				626520C21B73AB890064F653 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,30 +438,26 @@
 			files = (
 				62A427721B5A3ED800BB4AD9 /* PacketTunnelProvider.swift in Sources */,
 				620A5B891B5A9F1E00F98476 /* crypto.c in Sources */,
+				62D8D29E1B77433E009FA6FE /* ChinaDNSRunner.m in Sources */,
 				620A5B881B5A9F1E00F98476 /* crypto_secretbox_salsa208poly1305.c in Sources */,
+				62D8D2981B77342F009FA6FE /* chinadns.m in Sources */,
 				620A5B901B5AA85800F98476 /* SVCrypto.m in Sources */,
+				62D8D2701B772C5A009FA6FE /* RouteManager.swift in Sources */,
+				62D8D26B1B771B63009FA6FE /* NSData+Hex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		62A427751B5A3ED800BB4AD9 /* PBXTargetDependency */ = {
+		6228E95C1B775DDB00581B0F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 62A4276C1B5A3ED800BB4AD9 /* tunnel */;
-			targetProxy = 62A427741B5A3ED800BB4AD9 /* PBXContainerItemProxy */;
+			targetProxy = 6228E95B1B775DDB00581B0F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		62A427541B5A3C9700BB4AD9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				62A427551B5A3C9700BB4AD9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		62A427591B5A3C9700BB4AD9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -458,15 +556,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = ShadowVPN/ShadowVPN.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ShadowVPN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = clowwindy.ShadowVPN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "8935c941-0a32-4349-8d84-158ccdcb5eff";
+				SKIP_INSTALL = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "ShadowVPN/ShadowVPN-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -474,15 +577,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = ShadowVPN/ShadowVPN.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ShadowVPN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = clowwindy.ShadowVPN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "8935c941-0a32-4349-8d84-158ccdcb5eff";
+				SKIP_INSTALL = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "ShadowVPN/ShadowVPN-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -493,11 +600,12 @@
 				CODE_SIGN_ENTITLEMENTS = tunnel/tunnel.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = tunnel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = clowwindy.ShadowVPN.tunnel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "fd6a7b1c-eb02-4d71-a8b7-ee8d1c791d62";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/tunnel/tunnel-Bridging-Header.h";
 			};
@@ -510,11 +618,12 @@
 				CODE_SIGN_ENTITLEMENTS = tunnel/tunnel.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = tunnel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = clowwindy.ShadowVPN.tunnel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "fd6a7b1c-eb02-4d71-a8b7-ee8d1c791d62";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/tunnel/tunnel-Bridging-Header.h";
 			};
